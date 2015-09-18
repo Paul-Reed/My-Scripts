@@ -11,28 +11,28 @@ This is a init file to start/stop/restart the phpmqtt.php script, which is requi
 
 #### Installation
 
-1. $ sudo chown root:root /etc/init.d/phpmqtt_input
-2. $ sudo chmod +x /etc/init.d/phpmqtt_input
-3. $ sudo update-rc.d phpmqtt_input defaults
+    sudo chown root:root /etc/init.d/phpmqtt_input
+    sudo chmod +x /etc/init.d/phpmqtt_input
+    sudo update-rc.d phpmqtt_input defaults
 
 #### Starting and stopping
 
 Start:
 
-    $ sudo service phpmqtt_input start
+    sudo service phpmqtt_input start
     
 or
 
-    $ sudo /etc/init.d/phpmqtt_input start
+    sudo /etc/init.d/phpmqtt_input start
     
 Stop:
 
-    $ sudo service phpmqtt_input stop
+    sudo service phpmqtt_input stop
     
 or
 
-    $ sudo /etc/init.d/phpmqtt_input stop
+    sudo /etc/init.d/phpmqtt_input stop
     
 Show process ID:
 
-    $ cat /var/run/phpmqtt_input.pid
+    cat /var/run/phpmqtt_input.pid
