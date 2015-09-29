@@ -2,8 +2,6 @@
 
 This is a init file to start/stop/restart the phpmqtt.php script, which is required to enable emonmcms to subscribe to MQTT topics.
 
-[You can use numbers for reference-style link definitions][1]
-
 ####Obtain the init script
 
     cd /home/pi
@@ -32,8 +30,6 @@ Stop:
     sudo service phpmqtt_input stop
     
 or
-
-[1]: http://slashdot.org
 
     sudo /etc/init.d/phpmqtt_input stop
     
