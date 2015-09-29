@@ -1,6 +1,8 @@
 ## MQTT-Daemon
 
-This is a [init file][test] to start/stop/restart the phpmqtt.php script, which is required to enable emonmcms to subscribe to MQTT topics.
+This is a init file to start/stop/restart the phpmqtt.php script, which is required to enable emonmcms to subscribe to MQTT topics.
+
+[You can use numbers for reference-style link definitions][1]
 
 ####Obtain the init script
 
@@ -31,8 +33,10 @@ Stop:
     
 or
 
+[1]: http://slashdot.org
+
     sudo /etc/init.d/phpmqtt_input stop
     
-[test]:"Show process ID:"
+Show process ID:
 
     cat /var/run/phpmqtt_input.pid
