@@ -1,6 +1,6 @@
 ## MQTT-Daemon
 
-This is a init file to start/stop/restart the phpmqtt.php script, which is required to enable emonmcms to subscribe to MQTT topics.
+[This is a init](README.md#starting-and-stopping) file to start/stop/restart the phpmqtt.php script, which is required to enable emonmcms to subscribe to MQTT topics.
 
 ####Obtain the init script
 
